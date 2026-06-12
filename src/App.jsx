@@ -3,25 +3,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 
-// function App() {
-//   return (
-//     <Router>
-//       {/* ഒരു കുഞ്ഞു നാവിഗേഷൻ ബാർ */}
-//       <nav style={{ padding: '15px', background: '#333', color: 'white', display: 'flex', gap: '15px' }}>
-//         <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
-//         <Link to="/login" style={{ color: 'white', textDecoration: 'none' }}>Login</Link>
-//         <Link to="/cart" style={{ color: 'white', textDecoration: 'none' }}>Cart</Link>
-//       </nav>
 
-//       {/* പേജ് റൂട്ടുകൾ */}
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/cart" element={<Cart />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
 
 
 import { useState, useRef } from "react";
